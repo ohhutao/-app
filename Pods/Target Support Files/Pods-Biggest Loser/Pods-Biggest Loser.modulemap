@@ -1,0 +1,6 @@
+framework module Pods_Biggest_Loser {
+  umbrella header "Pods-Biggest Loser-umbrella.h"
+
+  export *
+  module * { export * }
+}

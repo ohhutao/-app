@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292FD52B2AC1925E00DF4B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD52A2AC1925E00DF4B19 /* AppDelegate.swift */; };
+		292FD52D2AC1925E00DF4B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD52C2AC1925E00DF4B19 /* SceneDelegate.swift */; };
+		292FD5322AC1925E00DF4B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292FD5302AC1925E00DF4B19 /* Main.storyboard */; };
+		292FD5342AC1925F00DF4B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292FD5332AC1925F00DF4B19 /* Assets.xcassets */; };
+		292FD5372AC1925F00DF4B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292FD5352AC1925F00DF4B19 /* LaunchScreen.storyboard */; };
+		292FD5422AC1925F00DF4B19 /* Biggest_LoserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD5412AC1925F00DF4B19 /* Biggest_LoserTests.swift */; };
+		292FD54C2AC1925F00DF4B19 /* Biggest_LoserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD54B2AC1925F00DF4B19 /* Biggest_LoserUITests.swift */; };
+		292FD54E2AC1925F00DF4B19 /* Biggest_LoserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD54D2AC1925F00DF4B19 /* Biggest_LoserUITestsLaunchTests.swift */; };
+		292FD55F2AC1966500DF4B19 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 292FD55E2AC1966500DF4B19 /* music1.mp3 */; };
+		292FD5612AC1984500DF4B19 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD5602AC1984500DF4B19 /* TabBarController.swift */; };
+		292FD5642AC198AE00DF4B19 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD5622AC198AE00DF4B19 /* FirstVC.swift */; };
+		292FD5652AC198AE00DF4B19 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292FD5632AC198AE00DF4B19 /* FirstVC.xib */; };
+		292FD5682AC198C200DF4B19 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD5662AC198C200DF4B19 /* SecondVC.swift */; };
+		292FD5692AC198C200DF4B19 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292FD5672AC198C200DF4B19 /* SecondVC.xib */; };
+		292FD56C2AC1B93C00DF4B19 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292FD56A2AC1B93C00DF4B19 /* TrainViewController.swift */; };
+		292FD56D2AC1B93C00DF4B19 /* TrainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292FD56B2AC1B93C00DF4B19 /* TrainViewController.xib */; };
+		296E1F6D2ACE4FD80039067E /* ThirdVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E1F6B2ACE4FD80039067E /* ThirdVc.swift */; };
+		296E1F732ACE60640039067E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E1F712ACE60640039067E /* TableViewCell.swift */; };
+		2980592E2AC4503200EC579B /* word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980592D2AC4503200EC579B /* word.swift */; };
+		29B808462AD139B0000AB1A3 /* itemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B808442AD139B0000AB1A3 /* itemController.swift */; };
+		29B808472AD139B0000AB1A3 /* itemController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B808452AD139B0000AB1A3 /* itemController.xib */; };
+		2B3BF171B60D47E054960B04 /* Pods_Biggest_Loser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB83F4C4FD496D9635FE566 /* Pods_Biggest_Loser.framework */; };
+		CD8D6D312918EF633B138EE3 /* Pods_Biggest_Loser_Biggest_LoserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D75B8E6D734710BFE14E7E /* Pods_Biggest_Loser_Biggest_LoserUITests.framework */; };
+		D2D5A975F1BDC92835E48EFD /* Pods_Biggest_LoserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFAD5535F8850BB8C1CB186 /* Pods_Biggest_LoserTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292FD53E2AC1925F00DF4B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292FD51F2AC1925E00DF4B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292FD5262AC1925E00DF4B19;
+			remoteInfo = "Biggest Loser";
+		};
+		292FD5482AC1925F00DF4B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292FD51F2AC1925E00DF4B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292FD5262AC1925E00DF4B19;
+			remoteInfo = "Biggest Loser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		292FD5272AC1925E00DF4B19 /* Biggest Loser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biggest Loser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292FD52A2AC1925E00DF4B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		292FD52C2AC1925E00DF4B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		292FD5312AC1925E00DF4B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		292FD5332AC1925F00DF4B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292FD5362AC1925F00DF4B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		292FD5382AC1925F00DF4B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292FD53D2AC1925F00DF4B19 /* Biggest LoserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biggest LoserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292FD5412AC1925F00DF4B19 /* Biggest_LoserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biggest_LoserTests.swift; sourceTree = "<group>"; };
+		292FD5472AC1925F00DF4B19 /* Biggest LoserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biggest LoserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292FD54B2AC1925F00DF4B19 /* Biggest_LoserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biggest_LoserUITests.swift; sourceTree = "<group>"; };
+		292FD54D2AC1925F00DF4B19 /* Biggest_LoserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biggest_LoserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		292FD55E2AC1966500DF4B19 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		292FD5602AC1984500DF4B19 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		292FD5622AC198AE00DF4B19 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		292FD5632AC198AE00DF4B19 /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		292FD5662AC198C200DF4B19 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		292FD5672AC198C200DF4B19 /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		292FD56A2AC1B93C00DF4B19 /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
+		292FD56B2AC1B93C00DF4B19 /* TrainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainViewController.xib; sourceTree = "<group>"; };
+		296E1F6B2ACE4FD80039067E /* ThirdVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVc.swift; sourceTree = "<group>"; };
+		296E1F712ACE60640039067E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2980592D2AC4503200EC579B /* word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = word.swift; sourceTree = "<group>"; };
+		29B808442AD139B0000AB1A3 /* itemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemController.swift; sourceTree = "<group>"; };
+		29B808452AD139B0000AB1A3 /* itemController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemController.xib; sourceTree = "<group>"; };
+		33D75B8E6D734710BFE14E7E /* Pods_Biggest_Loser_Biggest_LoserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biggest_Loser_Biggest_LoserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB83F4C4FD496D9635FE566 /* Pods_Biggest_Loser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biggest_Loser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFAD5535F8850BB8C1CB186 /* Pods_Biggest_LoserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biggest_LoserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7525AFF51F18CB28BC5AB4CD /* Pods-Biggest Loser-Biggest LoserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biggest Loser-Biggest LoserUITests.release.xcconfig"; path = "Target Support Files/Pods-Biggest Loser-Biggest LoserUITests/Pods-Biggest Loser-Biggest LoserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FA3F3412FB779714509AB52 /* Pods-Biggest Loser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biggest Loser.release.xcconfig"; path = "Target Support Files/Pods-Biggest Loser/Pods-Biggest Loser.release.xcconfig"; sourceTree = "<group>"; };
+		9A61FB5F544E78111A026111 /* Pods-Biggest LoserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biggest LoserTests.debug.xcconfig"; path = "Target Support Files/Pods-Biggest LoserTests/Pods-Biggest LoserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FC026357671089ECA04BBE /* Pods-Biggest Loser-Biggest LoserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biggest Loser-Biggest LoserUITests.debug.xcconfig"; path = "Target Support Files/Pods-Biggest Loser-Biggest LoserUITests/Pods-Biggest Loser-Biggest LoserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4D22E6EF9007994C0F6828 /* Pods-Biggest Loser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biggest Loser.debug.xcconfig"; path = "Target Support Files/Pods-Biggest Loser/Pods-Biggest Loser.debug.xcconfig"; sourceTree = "<group>"; };
+		F7391E140FD0A363A9308253 /* Pods-Biggest LoserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biggest LoserTests.release.xcconfig"; path = "Target Support Files/Pods-Biggest LoserTests/Pods-Biggest LoserTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292FD5242AC1925E00DF4B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3BF171B60D47E054960B04 /* Pods_Biggest_Loser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292FD53A2AC1925F00DF4B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5A975F1BDC92835E48EFD /* Pods_Biggest_LoserTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292FD5442AC1925F00DF4B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8D6D312918EF633B138EE3 /* Pods_Biggest_Loser_Biggest_LoserUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AFFE0F87B37D397418747E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D22E6EF9007994C0F6828 /* Pods-Biggest Loser.debug.xcconfig */,
+				7FA3F3412FB779714509AB52 /* Pods-Biggest Loser.release.xcconfig */,
+				D9FC026357671089ECA04BBE /* Pods-Biggest Loser-Biggest LoserUITests.debug.xcconfig */,
+				7525AFF51F18CB28BC5AB4CD /* Pods-Biggest Loser-Biggest LoserUITests.release.xcconfig */,
+				9A61FB5F544E78111A026111 /* Pods-Biggest LoserTests.debug.xcconfig */,
+				F7391E140FD0A363A9308253 /* Pods-Biggest LoserTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		292FD51E2AC1925E00DF4B19 = {
+			isa = PBXGroup;
+			children = (
+				292FD5292AC1925E00DF4B19 /* Biggest Loser */,
+				292FD5402AC1925F00DF4B19 /* Biggest LoserTests */,
+				292FD54A2AC1925F00DF4B19 /* Biggest LoserUITests */,
+				292FD5282AC1925E00DF4B19 /* Products */,
+				09AFFE0F87B37D397418747E /* Pods */,
+				48726BEBCA3FB25D8577728B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		292FD5282AC1925E00DF4B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292FD5272AC1925E00DF4B19 /* Biggest Loser.app */,
+				292FD53D2AC1925F00DF4B19 /* Biggest LoserTests.xctest */,
+				292FD5472AC1925F00DF4B19 /* Biggest LoserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292FD5292AC1925E00DF4B19 /* Biggest Loser */ = {
+			isa = PBXGroup;
+			children = (
+				292FD52A2AC1925E00DF4B19 /* AppDelegate.swift */,
+				292FD52C2AC1925E00DF4B19 /* SceneDelegate.swift */,
+				292FD55E2AC1966500DF4B19 /* music1.mp3 */,
+				292FD5602AC1984500DF4B19 /* TabBarController.swift */,
+				292FD5622AC198AE00DF4B19 /* FirstVC.swift */,
+				292FD5632AC198AE00DF4B19 /* FirstVC.xib */,
+				292FD56A2AC1B93C00DF4B19 /* TrainViewController.swift */,
+				292FD56B2AC1B93C00DF4B19 /* TrainViewController.xib */,
+				292FD5662AC198C200DF4B19 /* SecondVC.swift */,
+				292FD5672AC198C200DF4B19 /* SecondVC.xib */,
+				29B808442AD139B0000AB1A3 /* itemController.swift */,
+				29B808452AD139B0000AB1A3 /* itemController.xib */,
+				296E1F6B2ACE4FD80039067E /* ThirdVc.swift */,
+				296E1F712ACE60640039067E /* TableViewCell.swift */,
+				292FD5302AC1925E00DF4B19 /* Main.storyboard */,
+				2980592D2AC4503200EC579B /* word.swift */,
+				292FD5332AC1925F00DF4B19 /* Assets.xcassets */,
+				292FD5352AC1925F00DF4B19 /* LaunchScreen.storyboard */,
+				292FD5382AC1925F00DF4B19 /* Info.plist */,
+			);
+			path = "Biggest Loser";
+			sourceTree = "<group>";
+		};
+		292FD5402AC1925F00DF4B19 /* Biggest LoserTests */ = {
+			isa = PBXGroup;
+			children = (
+				292FD5412AC1925F00DF4B19 /* Biggest_LoserTests.swift */,
+			);
+			path = "Biggest LoserTests";
+			sourceTree = "<group>";
+		};
+		292FD54A2AC1925F00DF4B19 /* Biggest LoserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				292FD54B2AC1925F00DF4B19 /* Biggest_LoserUITests.swift */,
+				292FD54D2AC1925F00DF4B19 /* Biggest_LoserUITestsLaunchTests.swift */,
+			);
+			path = "Biggest LoserUITests";
+			sourceTree = "<group>";
+		};
+		48726BEBCA3FB25D8577728B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FB83F4C4FD496D9635FE566 /* Pods_Biggest_Loser.framework */,
+				33D75B8E6D734710BFE14E7E /* Pods_Biggest_Loser_Biggest_LoserUITests.framework */,
+				6DFAD5535F8850BB8C1CB186 /* Pods_Biggest_LoserTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292FD5262AC1925E00DF4B19 /* Biggest Loser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292FD5512AC1925F00DF4B19 /* Build configuration list for PBXNativeTarget "Biggest Loser" */;
+			buildPhases = (
+				48B5D4E4679D66AA8256DA48 /* [CP] Check Pods Manifest.lock */,
+				292FD5232AC1925E00DF4B19 /* Sources */,
+				292FD5242AC1925E00DF4B19 /* Frameworks */,
+				292FD5252AC1925E00DF4B19 /* Resources */,
+				8F83EB3DAAC4F2A1FE5D12D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Biggest Loser";
+			productName = "Biggest Loser";
+			productReference = 292FD5272AC1925E00DF4B19 /* Biggest Loser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		292FD53C2AC1925F00DF4B19 /* Biggest LoserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292FD5542AC1925F00DF4B19 /* Build configuration list for PBXNativeTarget "Biggest LoserTests" */;
+			buildPhases = (
+				99EB9E04EF30C10673EBD631 /* [CP] Check Pods Manifest.lock */,
+				292FD5392AC1925F00DF4B19 /* Sources */,
+				292FD53A2AC1925F00DF4B19 /* Frameworks */,
+				292FD53B2AC1925F00DF4B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292FD53F2AC1925F00DF4B19 /* PBXTargetDependency */,
+			);
+			name = "Biggest LoserTests";
+			productName = "Biggest LoserTests";
+			productReference = 292FD53D2AC1925F00DF4B19 /* Biggest LoserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		292FD5462AC1925F00DF4B19 /* Biggest LoserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292FD5572AC1925F00DF4B19 /* Build configuration list for PBXNativeTarget "Biggest LoserUITests" */;
+			buildPhases = (
+				74858A7D82DEA0E025B812F8 /* [CP] Check Pods Manifest.lock */,
+				292FD5432AC1925F00DF4B19 /* Sources */,
+				292FD5442AC1925F00DF4B19 /* Frameworks */,
+				292FD5452AC1925F00DF4B19 /* Resources */,
+				D92E8B324502E6699D6A4AA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292FD5492AC1925F00DF4B19 /* PBXTargetDependency */,
+			);
+			name = "Biggest LoserUITests";
+			productName = "Biggest LoserUITests";
+			productReference = 292FD5472AC1925F00DF4B19 /* Biggest LoserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292FD51F2AC1925E00DF4B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					292FD5262AC1925E00DF4B19 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					292FD53C2AC1925F00DF4B19 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 292FD5262AC1925E00DF4B19;
+					};
+					292FD5462AC1925F00DF4B19 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 292FD5262AC1925E00DF4B19;
+					};
+				};
+			};
+			buildConfigurationList = 292FD5222AC1925E00DF4B19 /* Build configuration list for PBXProject "Biggest Loser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 292FD51E2AC1925E00DF4B19;
+			productRefGroup = 292FD5282AC1925E00DF4B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292FD5262AC1925E00DF4B19 /* Biggest Loser */,
+				292FD53C2AC1925F00DF4B19 /* Biggest LoserTests */,
+				292FD5462AC1925F00DF4B19 /* Biggest LoserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292FD5252AC1925E00DF4B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292FD55F2AC1966500DF4B19 /* music1.mp3 in Resources */,
+				292FD5372AC1925F00DF4B19 /* LaunchScreen.storyboard in Resources */,
+				292FD5342AC1925F00DF4B19 /* Assets.xcassets in Resources */,
+				292FD5322AC1925E00DF4B19 /* Main.storyboard in Resources */,
+				292FD5692AC198C200DF4B19 /* SecondVC.xib in Resources */,
+				292FD5652AC198AE00DF4B19 /* FirstVC.xib in Resources */,
+				29B808472AD139B0000AB1A3 /* itemController.xib in Resources */,
+				292FD56D2AC1B93C00DF4B19 /* TrainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292FD53B2AC1925F00DF4B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292FD5452AC1925F00DF4B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48B5D4E4679D66AA8256DA48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biggest Loser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74858A7D82DEA0E025B812F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biggest Loser-Biggest LoserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F83EB3DAAC4F2A1FE5D12D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biggest Loser/Pods-Biggest Loser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biggest Loser/Pods-Biggest Loser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biggest Loser/Pods-Biggest Loser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99EB9E04EF30C10673EBD631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biggest LoserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D92E8B324502E6699D6A4AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biggest Loser-Biggest LoserUITests/Pods-Biggest Loser-Biggest LoserUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biggest Loser-Biggest LoserUITests/Pods-Biggest Loser-Biggest LoserUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biggest Loser-Biggest LoserUITests/Pods-Biggest Loser-Biggest LoserUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292FD5232AC1925E00DF4B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2980592E2AC4503200EC579B /* word.swift in Sources */,
+				292FD5612AC1984500DF4B19 /* TabBarController.swift in Sources */,
+				292FD52B2AC1925E00DF4B19 /* AppDelegate.swift in Sources */,
+				296E1F732ACE60640039067E /* TableViewCell.swift in Sources */,
+				292FD5642AC198AE00DF4B19 /* FirstVC.swift in Sources */,
+				296E1F6D2ACE4FD80039067E /* ThirdVc.swift in Sources */,
+				292FD5682AC198C200DF4B19 /* SecondVC.swift in Sources */,
+				292FD52D2AC1925E00DF4B19 /* SceneDelegate.swift in Sources */,
+				29B808462AD139B0000AB1A3 /* itemController.swift in Sources */,
+				292FD56C2AC1B93C00DF4B19 /* TrainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292FD5392AC1925F00DF4B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292FD5422AC1925F00DF4B19 /* Biggest_LoserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292FD5432AC1925F00DF4B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292FD54E2AC1925F00DF4B19 /* Biggest_LoserUITestsLaunchTests.swift in Sources */,
+				292FD54C2AC1925F00DF4B19 /* Biggest_LoserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		292FD53F2AC1925F00DF4B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292FD5262AC1925E00DF4B19 /* Biggest Loser */;
+			targetProxy = 292FD53E2AC1925F00DF4B19 /* PBXContainerItemProxy */;
+		};
+		292FD5492AC1925F00DF4B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292FD5262AC1925E00DF4B19 /* Biggest Loser */;
+			targetProxy = 292FD5482AC1925F00DF4B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		292FD5302AC1925E00DF4B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292FD5312AC1925E00DF4B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		292FD5352AC1925F00DF4B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292FD5362AC1925F00DF4B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292FD54F2AC1925F00DF4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		292FD5502AC1925F00DF4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		292FD5522AC1925F00DF4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4D22E6EF9007994C0F6828 /* Pods-Biggest Loser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7JKF249C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biggest Loser/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HTWeight Manager";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hutao.Biggest-Loser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		292FD5532AC1925F00DF4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA3F3412FB779714509AB52 /* Pods-Biggest Loser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7JKF249C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biggest Loser/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HTWeight Manager";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hutao.Biggest-Loser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		292FD5552AC1925F00DF4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A61FB5F544E78111A026111 /* Pods-Biggest LoserTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 925QY5UPZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hutao.Biggest-LoserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biggest Loser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biggest Loser";
+			};
+			name = Debug;
+		};
+		292FD5562AC1925F00DF4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7391E140FD0A363A9308253 /* Pods-Biggest LoserTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 925QY5UPZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hutao.Biggest-LoserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biggest Loser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biggest Loser";
+			};
+			name = Release;
+		};
+		292FD5582AC1925F00DF4B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FC026357671089ECA04BBE /* Pods-Biggest Loser-Biggest LoserUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 925QY5UPZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hutao.Biggest-LoserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Biggest Loser";
+			};
+			name = Debug;
+		};
+		292FD5592AC1925F00DF4B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7525AFF51F18CB28BC5AB4CD /* Pods-Biggest Loser-Biggest LoserUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 925QY5UPZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hutao.Biggest-LoserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Biggest Loser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292FD5222AC1925E00DF4B19 /* Build configuration list for PBXProject "Biggest Loser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292FD54F2AC1925F00DF4B19 /* Debug */,
+				292FD5502AC1925F00DF4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292FD5512AC1925F00DF4B19 /* Build configuration list for PBXNativeTarget "Biggest Loser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292FD5522AC1925F00DF4B19 /* Debug */,
+				292FD5532AC1925F00DF4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292FD5542AC1925F00DF4B19 /* Build configuration list for PBXNativeTarget "Biggest LoserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292FD5552AC1925F00DF4B19 /* Debug */,
+				292FD5562AC1925F00DF4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292FD5572AC1925F00DF4B19 /* Build configuration list for PBXNativeTarget "Biggest LoserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292FD5582AC1925F00DF4B19 /* Debug */,
+				292FD5592AC1925F00DF4B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 292FD51F2AC1925E00DF4B19 /* Project object */;
+}
