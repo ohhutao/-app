@@ -13,6 +13,7 @@ class FirstVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("yes")
     }
     
     @IBAction func Button(_ sender: UIButton) {
